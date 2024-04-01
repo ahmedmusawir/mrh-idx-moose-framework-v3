@@ -1,0 +1,15 @@
+{
+    "name": "user/cyberize-app-dev-v9",
+    "autoload": {
+        "psr-4": {
+            "Cyber\\": "_classes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ahmed Musawir",
+            "email": "ahmed.musawir@gmail.com"
+        }
+    ],
+    "require": {}
+}

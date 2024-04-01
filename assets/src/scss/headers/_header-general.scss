@@ -1,0 +1,114 @@
+// /*--------------------------------------------------------------
+// MAIN NAVIGATION AREA [NON-BOOTSTRAP]
+// --------------------------------------------------------------*/
+
+.main-navigation {
+  position: relative;
+  width: 100%;
+  display: block;
+  clear: both;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  background: white;
+
+  .main-navbar {
+    .logo-container {
+      // border: 2px dotted red;
+      margin-bottom: -1.6rem;
+      margin-top: -0.75rem;
+
+      .logo {
+        // border: 5px dotted blue;
+        width: 80%;
+
+        @media (max-width: 991px) {
+          width: 100%;
+        }
+        @media (max-width: 767px) {
+          width: 150px;
+        }
+      }
+    }
+
+    .main-nav {
+      height: 100%;
+      display: flex;
+      align-items: center !important;
+      // border: 3px dotted green;
+    }
+  }
+
+  // MAIN NAVIGATION BLOCK
+  ul {
+    // border: 2px dotted dodgerblue;
+    list-style: none;
+    margin: 0;
+    margin-top: 1rem;
+    padding-left: 0;
+
+    ul {
+      position: absolute;
+      left: 0;
+      z-index: 99999;
+      display: none;
+      float: left;
+      padding: 0;
+      background: #4d4d4d;
+
+      ul {
+        left: 100%;
+        top: 0;
+      }
+
+      a {
+        width: 200px;
+        &:hover {
+          background: #313131;
+          border-bottom: 4px solid red;
+        }
+      }
+    }
+  }
+
+  li {
+    float: left;
+    position: relative;
+
+    &:hover > ul {
+      display: block;
+    }
+
+    &:hover > a {
+      border-bottom: 2px solid red;
+    }
+  }
+
+  a {
+    display: block;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    line-height: 1.3em;
+    color: black;
+  }
+
+  // CURRENT PAGE HOVER
+  .current_page_item > a,
+  .current-menu-item > a,
+  .current_page_item > a:hover,
+  .current-menu-item > a:hover {
+    // background: darken($cg-primary, 10%);
+    // color: yellow;
+    border-bottom: 2px solid red;
+  }
+  // CURRENT PAGE SELECTED STATUS
+  .sub-menu .current_page_ancestor {
+    border-bottom: 2px solid red;
+  }
+
+  ul ul .current_page_parent,
+  .current_page_parent .current_page_item > a {
+    color: #fff;
+    background: #313131;
+  }
+}

@@ -1,0 +1,222 @@
+/**
+ *
+ * STYLE: HOUSE FOR PURCHASE
+ *
+ */
+
+/* CONTACT US FORM */
+#gform_2 input {
+  /* 	border: 1rem solid; */
+  padding: 1rem;
+}
+
+#gform_submit_button_2 {
+  background: #e0852a;
+  color: white;
+  text-transform: uppercase;
+  padding: 1rem 4rem !important;
+  padding-right: 5rem !important;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+
+#gform_2 textarea {
+  padding: 1rem;
+  height: 10rem;
+}
+
+#gform_2 label {
+  font-size: 1.2rem;
+}
+
+/* HOME PAGE CALCULATOR GRAVITY FORM */
+.gfield_description {
+  display: none;
+}
+
+#gform_submit_button_1 {
+  display: none;
+}
+
+#gform_1 input {
+  padding: 1rem;
+}
+
+#gform_1 input.gfield-choice-input {
+  width: 1.5rem;
+  height: 2.5rem;
+  margin-right: 0.5rem;
+}
+
+#gform_1 #input_1_8 {
+  background: #e6ffe6;
+}
+
+/* LISTS PAGE SEARCH FORM */
+/* container */
+.dsidx-resp-search-box-modern-view.dsidx-resp-horizontal.dsidx-inline-form {
+  /* 	border: 4px solid yellow; */
+  padding: 2rem;
+  color: white;
+  background: #d8252e;
+  text-align: center;
+}
+
+/* LIST ITEM */
+
+/* Removing View Tabs */
+.dsidx-xlistings ul.dsidx-xtabs.dsidx-xlistings-xtabs li.dsidx-xtab {
+  display: none;
+}
+
+/* item header */
+.dsidx-xlistings.dsidx-xlistings-large.dsidx-xlistings-grid
+  .dsidx-listing-item {
+  /* 	border: 5px dotted green; */
+
+  margin-bottom: 2rem !important;
+}
+
+/* location inputs */
+.dsidx-resp-search-box-modern-view.dsidx-resp-horizontal.dsidx-inline-form
+  .dsidx-autocomplete-box {
+  padding: 0.5rem;
+}
+
+@media (max-width: 500px) {
+  /* container */
+  .dsidx-resp-search-box-modern-view.dsidx-resp-horizontal.dsidx-inline-form {
+    /* 	border: 4px solid yellow; */
+    padding: 2rem 0.5rem;
+  }
+
+  /* 		location mobile */
+  .dsidx-resp-search-box-modern-view.dsidx-resp-horizontal
+    .dsidx-resp-location-area {
+    width: 100% !important;
+  }
+
+  /* property type mobile */
+  .dsidx-resp-search-box-modern-view.dsidx-resp-horizontal
+    .dsidx-resp-type-area {
+    width: 100% !important;
+  }
+  /* 	property status  */
+  .dsidx-resp-search-box-modern-view.dsidx-resp-horizontal
+    .dsidx-resp-status-area {
+    width: 100% !important;
+  }
+
+  /* Bed & Bath	 */
+  .dsidx-resp-search-box-modern-view.dsidx-resp-horizontal
+    .dsidx-quick-resp-min-baths-area {
+    width: 100% !important;
+  }
+
+  /* price min & max 	 */
+  .dsidx-resp-search-box-modern-view.dsidx-resp-horizontal
+    .dsidx-quick-resp-price-area {
+    width: 100% !important;
+  }
+
+  /* submit btn	 */
+  .dsidx-resp-search-box-modern-view.dsidx-resp-horizontal.dsidx-inline-form
+    input {
+    width: 100% !important;
+  }
+}
+/* end media query */
+
+/* placeholders */
+.dsidx-resp-search-box-modern-view.dsidx-resp-horizontal.dsidx-inline-form
+  input::placeholder {
+  font-size: 0.9rem !important;
+}
+
+/* labels */
+.dsidx-resp-search-box-modern-view.dsidx-resp-horizontal.dsidx-inline-form
+  label {
+  font-size: 0.8rem !important;
+}
+
+/* search submit */
+.dsidx-resp-search-box-modern-view.dsidx-resp-horizontal.dsidx-inline-form
+  .dsidx-resp-submit {
+  line-height: 5px;
+  padding: 0.5rem;
+}
+
+.dsidx-resp-search-box-modern-view.dsidx-resp-horizontal
+  .dsidx-resp-area-submit {
+  width: 100% !important;
+}
+
+/* IDX LIST BOX */
+.dsidx-xlistings.dsidx-xlistings-large.dsidx-xlistings-grid {
+  /* 	border: 4px dotted; */
+  width: 100%;
+}
+/* item header */
+.dsidx-xlistings.dsidx-xlistings-large.dsidx-xlistings-grid
+  .dsidx-listing-item
+  .dsidx-header.dsidx-multi-line {
+  /* 	border: 1px solid red; */
+  width: 100%;
+  background: #d8252e;
+  padding: 10px;
+}
+
+.dsidx-xlistings.dsidx-xlistings-large.dsidx-xlistings-grid
+  .dsidx-listing-item
+  .dsidx-header.dsidx-multi-line
+  a {
+  color: white;
+}
+
+.dsidx-xlistings.dsidx-xlistings-large.dsidx-xlistings-grid
+  .dsidx-listing-item
+  .dsidx-price {
+  background-color: red !important;
+}
+
+/* just the grid */
+.dsidx-xlistings.dsidx-xlistings-large.dsidx-xlistings-grid {
+  /* 	border: 1rem solid */
+}
+
+.tve_shortcode_rendered p {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .dsidx-xlistings.dsidx-xlistings-large.dsidx-xlistings-grid {
+    /* 	border: 4px dotted; */
+    width: 100%;
+    margin-bottom: 2rem !important;
+  }
+
+  /* item header */
+  .dsidx-xlistings.dsidx-xlistings-large.dsidx-xlistings-grid
+    .dsidx-listing-item {
+    /* 	border: 5px dotted green; */
+    width: 100%;
+    margin-bottom: 4rem !important;
+  }
+
+  /* item header */
+  .dsidx-xlistings.dsidx-xlistings-large.dsidx-xlistings-grid
+    .dsidx-listing-item
+    .dsidx-header.dsidx-single-line {
+    width: 100%;
+    background: #d8252e;
+    padding: 10px;
+  }
+
+  .dsidx-xlistings.dsidx-xlistings-large.dsidx-xlistings-grid
+    .dsidx-listing-item
+    .dsidx-header.dsidx-single-line
+    a {
+    color: white;
+  }
+}
+/* end media query */

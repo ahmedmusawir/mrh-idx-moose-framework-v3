@@ -1,0 +1,47 @@
+/**
+ * HERDER: MRH IDX
+ */
+
+// EXTRA HEADER TOP - BUTTON MENU
+#mrh-top-button-header {
+  //   border: 3px dotted red;
+  background-color: lighten($color: #eaeaea, $amount: 7%);
+  .row {
+    margin-bottom: -0.35rem !important;
+  }
+  .left-box {
+    .phone-number-heading {
+      margin-top: 0.5rem;
+    }
+    .top-phone-number {
+      color: red;
+      &:hover {
+        color: black;
+      }
+    }
+  }
+  .right-box {
+    .list-group {
+      margin-top: 0.5rem;
+      //   border: 1px dotted red;
+
+      .list-group-item {
+        width: 100%;
+        border-radius: 0;
+        text-align: center;
+        margin-left: 0.25rem;
+      }
+      .red {
+        background: #d0242d !important;
+        color: white;
+      }
+      .black {
+        background-color: black;
+        color: white;
+      }
+      .gray {
+        background-color: #e3e3e3;
+      }
+    }
+  }
+}

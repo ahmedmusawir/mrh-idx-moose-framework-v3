@@ -1,0 +1,46 @@
+/**
+ *
+ * Footer House for Purchase
+ *
+ */
+
+.footer-content {
+  margin-bottom: -2rem;
+  padding: 3rem 3rem;
+  background-color: #d0242d;
+
+  .left-col {
+    @media (max-width: 500px) {
+      padding-bottom: 2rem;
+    }
+    h5 {
+      font-size: 0.9rem;
+      font-weight: bold;
+
+      @media (max-width: 500px) {
+        text-align: center;
+      }
+    }
+  }
+
+  .right-col {
+    h5 {
+      font-size: 1.2rem;
+      font-weight: bold;
+      padding: 1rem;
+    }
+  }
+}
+
+.site-info {
+  margin: 0 auto;
+  font-size: 0.7rem;
+
+  @media (max-width: 500px) {
+    font-size: 0.6rem;
+  }
+
+  @media (max-width: 370px) {
+    font-size: 0.5rem;
+  }
+}

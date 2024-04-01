@@ -1,0 +1,56 @@
+/**
+ *
+ * Global Styles for Post Single Page
+ *
+ */
+
+.single-post {
+  // padding-top: 8rem;
+  .site-main {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+
+    .entry-content {
+      // border: 1rem dotted red;
+      padding: 3rem;
+      background: $cg-secondary;
+
+      p {
+        color: white;
+        line-height: 2rem;
+      }
+    }
+
+    .navigation.post-navigation {
+      background-color: $cg-primary;
+      margin-top: 0.5rem;
+      padding: 1rem;
+      .nav-links {
+        // border: 5px dotted coral;
+        overflow: auto;
+
+        &::after {
+          content: '';
+          clear: both;
+          display: table;
+        }
+
+        a {
+          color: white;
+
+          @media (max-width: 500px) {
+            font-size: 0.9rem;
+          }
+        }
+
+        .nav-previous {
+          float: right;
+          @media (max-width: 500px) {
+            float: none;
+            margin-bottom: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+}
