@@ -4,7 +4,7 @@
 
 // EXTRA HEADER TOP - BUTTON MENU
 #mrh-top-button-header {
-  //   border: 3px dotted red;
+  // border: 3px dotted red;
   background-color: lighten($color: #eaeaea, $amount: 7%);
   .row {
     margin-bottom: -0.35rem !important;
@@ -21,6 +21,10 @@
     }
   }
   .right-box {
+    @media (max-width: 500px) {
+      padding-left: 0px !important;
+      padding-right: 0.25rem !important;
+    }
     .list-group {
       margin-top: 0.5rem;
       //   border: 1px dotted red;
@@ -30,6 +34,19 @@
         border-radius: 0;
         text-align: center;
         margin-left: 0.25rem;
+
+        a {
+          color: white;
+        }
+
+        @media (max-width: 500px) {
+          font-size: 0.75rem;
+          padding-top: 0.75rem;
+          padding-bottom: 0.85rem;
+        }
+        @media (max-width: 375px) {
+          font-size: 0.7rem;
+        }
       }
       .red {
         background: #d0242d !important;
@@ -41,6 +58,9 @@
       }
       .gray {
         background-color: #e3e3e3;
+        a {
+          color: black !important;
+        }
       }
     }
   }

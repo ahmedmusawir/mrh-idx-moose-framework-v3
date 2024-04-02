@@ -14,18 +14,22 @@
   .main-navbar {
     .logo-container {
       // border: 2px dotted red;
-      margin-bottom: -1.6rem;
+      // margin-bottom: -1.6rem;
       margin-top: -0.75rem;
+
+      @media (max-width: 500px) {
+        margin-bottom: -0.75rem;
+      }
 
       .logo {
         // border: 5px dotted blue;
         width: 80%;
 
-        @media (max-width: 991px) {
+        @media (max-width: 1000px) {
           width: 100%;
         }
-        @media (max-width: 767px) {
-          width: 150px;
+        @media (max-width: 500px) {
+          width: 80%;
         }
       }
     }

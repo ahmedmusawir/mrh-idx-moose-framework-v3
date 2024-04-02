@@ -30,9 +30,9 @@
 
         <header id="" class="site-header">
             <!-- MRH IDX TOP BUTTON HEADER -->
-            <section id="mrh-top-button-header">
+            <section id="mrh-top-button-header" class="container-fluid">
                 <div class="row">
-                    <div class="col-md-6 left-box">
+                    <div class="col-sm-12 col-md-12 col-lg-6 left-box">
                         <p class="phone-number-heading text-center">
                             <a class="top-phone-number" href="tel:+18005222781" target="_blank"
                                 style="outline: none;">800.522.2781</a>
@@ -40,12 +40,30 @@
                                 class="fw-light">FORT WORTH</span>
                         </p>
                     </div>
-                    <div class="col-md-6 right-box">
+                    <div class="col-sm-12 col-md-12 col-lg-6 right-box">
                         <ul class="list-group list-group-horizontal">
-                            <li class="list-group-item red">LANDLORDS</li>
-                            <li class="list-group-item black">TENANTS</li>
-                            <li class="list-group-item black">AGENTS</li>
-                            <li class="list-group-item gray">INSIGHTS</li>
+                            <li class="list-group-item red">
+                                <a href="https://mrh.selflist.com/">
+                                    LANDLORDS
+                                </a>
+                            </li>
+                            <li class="list-group-item black">
+                                <a href="https://mrh.selflist.com/tenants/">
+                                    TENANTS
+                                </a>
+                            </li>
+                            <li class="list-group-item black">
+                                <a href="https://mrh.selflist.com/agents/">
+                                    AGENTS
+                                </a>
+                            </li>
+
+                            <li class="list-group-item gray">
+                                <a href="https://mrh.selflist.com/library/">
+                                    INSIGHTS
+                                </a>
+                            </li>
+
                         </ul>
                     </div>
                 </div>
